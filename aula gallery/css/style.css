@@ -84,7 +84,13 @@ header a:hover {
 .gallery {
     max-width: 1200px;
     margin: 64px auto 0;
-    background-color: #F13239;
+    padding: 0 24px;
+}
+
+.gallery h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #F13239;
 }
 
 .gallery-row {
@@ -94,13 +100,17 @@ header a:hover {
 }
 
 .gallery-row div {
-    width: 350px;
+    flex: 1 1 250px;
 }
 
 .gallery-row img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 16px;
+}
+
+.gallery p {
+    font-weight: bold;
 }
 
 
