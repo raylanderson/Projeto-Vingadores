@@ -88,6 +88,7 @@ header a:hover {
 }
 
 .gallery h2 {
+    color: #111;
     margin-bottom: 32px;
     padding-left: 8px;
     border-left: 4px solid #F13239;
@@ -112,7 +113,66 @@ header a:hover {
 .gallery p {
     font-weight: bold;
 }
-
-
-
 /*    FINALIZANDO A GALERIA DO PROJETO VINGADORES    */
+
+/*    INICIANDO A HISTORIA DO PROJETO VINGADORES    */
+
+.history {
+    margin: 64px 0 400px; 
+    padding: 92px 24px;
+    background-color: #111;
+    color: #ebebeb;
+    border-top: 4px solid #F13239;
+}
+
+.history .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-bottom: 2px solid #F13239;
+}
+
+.history .container .col {
+    flex: 1 1 350px;
+}
+
+.history img {
+    width: 100%;
+    display: block;
+}
+
+.history h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #F13239;
+}
+
+.history p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.history p + p {
+    margin-top: 24px;
+}
+
+.history a {
+    color: #F13239;
+    transition: color 0.3s;
+}
+
+.history a:hover {
+    color: #ebebeb;
+}
+
+.history a {
+    color: #F13239;
+}
+
+
+
+/*    FINALIZANDO A HISTORIA DO PROJETO VINGADORES    */
+
