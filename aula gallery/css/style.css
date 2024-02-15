@@ -84,3 +84,12 @@ header a:hover {
 }
 /* FINALIZANDO O HERO MENU SUPERIOR */
 
+/*    INCIANDO A GALERIA DO PROJETO VINGADORES    */
+
+.gallery-row {
+    display: flex;
+}
+
+
+
+/*    FINALIZANDO A GALERIA DO PROJETO VINGADORES    */
