@@ -43,9 +43,12 @@ h2 {
 /* INICIANDO O HEADER MENU SUPERIOR */
 header {
     padding: 8px 24px;
+}
+
+header .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 8px;
     column-gap: 24px;
