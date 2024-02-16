@@ -7,10 +7,42 @@
 body {
     font-family: sans-serif;
 }
+
+a {    
+    transition: color 0.2s;
+}
+
+h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #F13239;
+}
+
+.container {    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark {    
+    background-color: #111;
+    color: #ebebeb;
+}
+
+.dark-link {
+    color: #F13239;
+}
+
+.dark-link:hover {
+    color: #ebebeb;
+}
+
+.text-center {    
+    text-align: center;
+}
+
 /* INICIANDO O HEADER MENU SUPERIOR */
 header {
     padding: 8px 24px;
-    background-color: #111;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,7 +67,6 @@ header ul li + li {
 header a {
     color: #ebebeb;
     text-decoration: none; 
-    transition: color 0.2s;
 }
 
 header a:hover {
@@ -86,16 +117,11 @@ header a:hover {
 
 /*    INCIANDO A GALERIA DO PROJETO VINGADORES    */
 .gallery {
-    max-width: 1200px;
-    margin: 64px auto 0;
-    padding: 0 24px;
+    padding: 64px 24px 96px;
 }
 
 .gallery h2 {
     color: #111;
-    margin-bottom: 32px;
-    padding-left: 8px;
-    border-left: 4px solid #F13239;
 }
 
 .gallery-row {
@@ -122,16 +148,11 @@ header a:hover {
 /*    INICIANDO A HISTORIA DO PROJETO VINGADORES    */
 
 .history {
-    margin: 64px 0 0; 
     padding: 92px 24px 0;
-    background-color: #111;
-    color: #ebebeb;
     border-top: 4px solid #F13239;
 }
 
 .history .container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -148,12 +169,6 @@ header a:hover {
     display: block;
 }
 
-.history h2 {
-    margin-bottom: 32px;
-    padding-left: 8px;
-    border-left: 4px solid #F13239;
-}
-
 .history p {
     line-height: 1.5;
     text-align: justify;
@@ -163,37 +178,14 @@ header a:hover {
     margin-top: 24px;
 }
 
-.history a {
-    color: #F13239;
-    transition: color 0.3s;
-}
-
-.history a:hover {
-    color: #ebebeb;
-}
-
-.history a {
-    color: #F13239;
-}
 /*    FINALIZANDO A HISTORIA DO PROJETO VINGADORES    */
 
 /*    INICIANDO FOOTER DO PROJETO VINGADORES    */
 
 footer {
-    padding: 64px 24px;
-    background-color: #111;
-    color: #ebebeb;
-    text-align: center;
+    padding: 64px 0;
 }
 
-footer a {
-    color: #F13239;
-    transition: color 0.2s;
-}
-
-footer a:hover {
-    color: #ebebeb;
-}
 
 /*    FINALIZANDO FOOTER DO PROJETO VINGADORES    */
 
