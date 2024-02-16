@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
-a {    
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    padding: 2px 0;
+    text-decoration: none; 
+    white-space: nowrap;
     transition: color 0.2s;
 }
 
@@ -30,10 +38,13 @@ h2 {
 
 .dark-link {
     color: #F13239;
+    border-bottom: 1px solid #F13239;
 }
 
-.dark-link:hover {
+.dark-link:hover,
+.dark-link:focus {
     color: #ebebeb;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .text-center {    
@@ -42,20 +53,19 @@ h2 {
 
 /* INICIANDO O HEADER MENU SUPERIOR */
 header {
-    padding: 8px 24px;
+    padding: 8px 16px;
 }
 
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     row-gap: 8px;
     column-gap: 24px;
 }
 
 header img {
-    width: 180px;
+    width: 120px;
 }
 
 header ul {
@@ -69,11 +79,13 @@ header ul li + li {
 
 header a {
     color: #ebebeb;
-    text-decoration: none; 
+    border-bottom: 1px solid #ebebeb;
 }
 
-header a:hover {
+header a:hover, 
+header a:focus {
     color: #F13239;
+    border-bottom: 1px solid #F13239;
 }
 /* FINALIZANDO O HEADER MENU SUPERIOR */
 
@@ -93,6 +105,8 @@ header a:hover {
 .hero h1 {
     color: #ebebeb;
     font-size: 36px;
+    background-color: #F13239;
+    padding: 4px 8px;
 }
 
 .dots {
@@ -100,16 +114,18 @@ header a:hover {
     display: flex;
 }
 
-.dots span {
-    display: block;
+.dots button {
     background-color: #ebebeb;
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
+
+    border: none;
     border-radius: 50%;
+
     cursor: pointer;
 }
 
-.dots span + span {
+.dots button + button {
     margin-left: 8px;
 }
 
@@ -133,17 +149,17 @@ header a:hover {
     gap: 24px;
 }
 
-.gallery-row div {
+.gallery-row figure {
     flex: 1 1 250px;
 }
 
-.gallery-row img {
+.gallery-row figure img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 16px;
 }
 
-.gallery p {
+.gallery figure figcaption {
     font-weight: bold;
 }
 /*    FINALIZANDO A GALERIA DO PROJETO VINGADORES    */
@@ -173,7 +189,6 @@ header a:hover {
 }
 
 .history p {
-    line-height: 1.5;
     text-align: justify;
 }
 
